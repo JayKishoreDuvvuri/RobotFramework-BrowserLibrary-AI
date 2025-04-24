@@ -1,0 +1,29 @@
+{
+  "name": "saucedemo-robot-tests",
+  "version": "1.0.0",
+  "description": "Test automation framework for SauceDemo website using Robot Framework with Browser Library",
+  "private": true,
+  "scripts": {
+    "setup": "rfbrowser init",
+    "test": "robot --outputdir results tests",
+    "test:parallel": "pabot --processes 2 --outputdir results tests",
+    "test:login": "robot --outputdir results tests/login_tests.robot",
+    "test:inventory": "robot --outputdir results tests/inventory_tests.robot",
+    "test:cart": "robot --outputdir results tests/cart_tests.robot",
+    "test:checkout": "robot --outputdir results tests/checkout_tests.robot",
+    "clean": "rimraf results"
+  },
+  "keywords": [
+    "robot-framework",
+    "automation",
+    "testing",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/browser": "^1.42.1",
+    "robotframework-pabot": "^2.16.0",
+    "rimraf": "^5.0.1"
+  }
+}

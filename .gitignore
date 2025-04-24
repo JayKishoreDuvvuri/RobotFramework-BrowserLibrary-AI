@@ -1,0 +1,22 @@
+# Node dependencies
+node_modules/
+
+# Robot Framework output
+results/
+log.html
+output.xml
+report.html
+playwright-log.txt
+
+# Environment
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
