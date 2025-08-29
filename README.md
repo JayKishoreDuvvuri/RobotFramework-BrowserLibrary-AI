@@ -1,7 +1,7 @@
 # SauceDemo Robot Framework Test Suite
 
 This project contains a comprehensive test automation suite for the [SauceDemo](https://www.saucedemo.com/) website using Robot Framework with Browser (Playwright) Library.
-Developed with AI https://bolt.new/
+Developed with AI Agent https://bolt.new/
 
 ## Project Structure
 
